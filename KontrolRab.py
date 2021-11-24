@@ -1,24 +1,49 @@
 
 #task1
 #skvor=""
-#for s in range(1,9):
+#for i in range(1,9):
 	#A=int(input("skolko skvoreshnikov: "))
 	#if A==1:
 
 #task2
-#for i in range(100):
-	#a=int(input("Enter Number"))
-	#b=int(input("Enter stepen"))
-	#if
+#¬ывести степени натуральных чисел, не превосход€щие данного числа n. ѕользователь задает показатель степени и число n.
+#n=int(input("Number: "))
+#s=int(input("Stepen: "))
+#count=0
+#for i in range(n):
+#	if (i**s)<n:
+#		count+=1
+#		print("stepeni "+str(count))
+	#ns=n**s
+	#if ns>n:
+	#	print(ns)
+	
+	
 
 #task3
-from random import *
-from math import *
+#from random import *
+#from math import *
 #students=randint(1,30)
+#print("Amount of students == "+str(students))
 #A=0
 #for i in range(students):
 	#mark=randint(1,5)
+	#print("mark == "+str(mark))
+	#if mark>0:
+		#A+=mark
+#average=students/A
+#print("Average == "+str(average))
+
 #task4
+#ћой богатый д€дюшка подарил мне один доллар в мой первый день рождени€. ¬ каждый день рождени€ он увеличивал свой подарок и прибавл€л к нему столько долларов, сколько лет мне исполнилось. Ќаписать программу, указывающую, к какому дню рождени€ подарок превысит 100$.
+#age=0
+#gift=0
+#for age in range(1,100):
+	#gift+=age
+	#print(gift)
+	#if gift>100:
+		#print("Age when gift is more than 100$ - "+str(age))
+		#break
 
 #task5
 #for stroka in range(1,9):
